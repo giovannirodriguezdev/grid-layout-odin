@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid Layout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <!-- Sidebar Start-->
+        <div class="sidebar">
+            <div class="nav-heading clickable">
+                <img src="images/icons8-dashboard-100.png" class="dash-img" alt="">Dashboard
+            </div>
+
+            <div class="navbar">
+                <ul class="nav-list nav-styles">
+                    <li><img src="images/icons8-home.svg" class="simple-icon" alt="home">Home</li>
+                    <li><img src="images/icons8-contact-24.png" class="simple-icon" alt="">Profile</li>
+                    <li><img src="images/icons8-messages-100.png" class="simple-icon" alt="">Messages</li>
+                    <li><img src="images/icons8-history-100.png" class="simple-icon" alt="">History</li>
+                    <li><img src="images/icons8-tasks-100.png" class="simple-icon" alt="">Tasks</li>
+                    <li><img src="images/icons8-users-30.png" class="simple-icon" alt="">Communities</li>
+                </ul>
+            </div>
+
+            <div class="setting-nav">
+                <ul class="setting-list nav-styles">
+                    <li><img src="images/icons8-settings-100.png" class="simple-icon" alt="">Settings</li>
+                    <li><img src="images/icons8-support-100.png" class="simple-icon" alt="">Support</li>
+                    <li><img src="images/icons8-privacy-100.png" class="simple-icon" alt="">Privacy</li>
+                </ul>
+            </div>
+        </div>
+        <!-- Sidebar End -->
+
+        <!-- Header Start -->
+        <div class="header">
+            <div class="top-header">
+                <div class="searchbar">
+                    <div class="search-img">
+                        <input type="image" class="search-icon" form="myForm" src="images/icons8-search.svg">
+                    </div>
+                    <form action="#" id="myForm" method="get">
+                        <input type="text" class="search-input" id="searchResult" name="searchResult"><br><br>
+                    </form>
+                </div>
+                <div class="profile-bar">
+                    <div class="clickable"><img src="images/icons8-notification-100.png" class="bell-icon" alt=""></div>
+                    <div class="clickable"><img src="images/icons8-user-profile-64.png" class="profile-pic-small" alt=""></div>
+                    <div class="clickable">John Smith</div>
+                </div>
+            </div>
+
+            <div class="bottom-header">
+                <div class="profile-display">
+                    <div class="clickable"><img src="images/icons8-user-profile-64.png" class="profile-pic-large" alt=""></div>
+                    <div class="name-greeting">
+                        <div class="greeting">Hi there,</div>
+                        <div class="name">John Smith (@johnsmith)</div>
+                    </div>
+                </div>
+                <div class="make-post">
+                    <button class="head-button clickable">New</button>
+                    <button class="head-button clickable">Upload</button>
+                    <button class="head-button clickable">Share</button>
+                </div>
+            </div>
+        </div>
+        <!-- Header End -->
+
+        <!-- Main Start -->
+        <div class="main">
+
+            <div class="project-display">
+
+                <div class="project-section-heading">Projects</div>
+                <div class="projects-container">
+
+                    <div class="projects">
+                        <div class="project-text">
+                            <div class="project-heading">Project 1</div>
+                            <div class="project-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi id libero impedit, tenetur neque quos cumque.</div>
+                        </div>
+                        
+                        <div class="project-interact-container">
+                            <ul class="interactions">
+                                <li class="interact-option"><img src="images/icons8-like-100.png" alt="like"></li>
+                                <li class="interact-option"><img src="images/icons8-save-100.png" alt="save"></li>
+                                <li class="interact-option"><img src="images/icons8-share-100.png" alt="share"></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="projects">
+                        <div class="project-text">
+                            <div class="project-heading">Project 1</div>
+                            <div class="project-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi id libero impedit, tenetur neque quos cumque.</div>
+                        </div>
+                        
+                        <div class="project-interact-container">
+                            <ul class="interactions">
+                                <li class="interact-option"><img src="images/icons8-like-100.png" alt="like"></li>
+                                <li class="interact-option"><img src="images/icons8-save-100.png" alt="save"></li>
+                                <li class="interact-option"><img src="images/icons8-share-100.png" alt="share"></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="projects">
+                        <div class="project-text">
+                            <div class="project-heading">Project 1</div>
+                            <div class="project-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi id libero impedit, tenetur neque quos cumque.</div>
+                        </div>
+                        
+                        <div class="project-interact-container">
+                            <ul class="interactions">
+                                <li class="interact-option"><img src="images/icons8-like-100.png" alt="like"></li>
+                                <li class="interact-option"><img src="images/icons8-save-100.png" alt="save"></li>
+                                <li class="interact-option"><img src="images/icons8-share-100.png" alt="share"></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="projects">
+                        <div class="project-text">
+                            <div class="project-heading">Project 1</div>
+                            <div class="project-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi id libero impedit, tenetur neque quos cumque.</div>
+                        </div>
+                        
+                        <div class="project-interact-container">
+                            <ul class="interactions">
+                                <li class="interact-option"><img src="images/icons8-like-100.png" alt="like"></li>
+                                <li class="interact-option"><img src="images/icons8-save-100.png" alt="save"></li>
+                                <li class="interact-option"><img src="images/icons8-share-100.png" alt="share"></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="projects">
+                        <div class="project-text">
+                            <div class="project-heading">Project 1</div>
+                            <div class="project-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi id libero impedit, tenetur neque quos cumque.</div>
+                        </div>
+                        
+                        <div class="project-interact-container">
+                            <ul class="interactions">
+                                <li class="interact-option"><img src="images/icons8-like-100.png" alt="like"></li>
+                                <li class="interact-option"><img src="images/icons8-save-100.png" alt="save"></li>
+                                <li class="interact-option"><img src="images/icons8-share-100.png" alt="share"></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="projects">
+                        <div class="project-text">
+                            <div class="project-heading">Project 1</div>
+                            <div class="project-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi id libero impedit, tenetur neque quos cumque.</div>
+                        </div>
+                        
+                        <div class="project-interact-container">
+                            <ul class="interactions">
+                                <li class="interact-option"><img src="images/icons8-like-100.png" alt="like"></li>
+                                <li class="interact-option"><img src="images/icons8-save-100.png" alt="save"></li>
+                                <li class="interact-option"><img src="images/icons8-share-100.png" alt="share"></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="annoucement-section">
+                <div class="annoucement-section-heading">Announcements</div>
+                <div class="annoucement-container">
+                    <div class="annoucement-heading">Site Maintenance</div>
+                    <div class="annoucement-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, labore?</div>
+                    <hr>
+                    <div class="annoucement-heading">Community Share Day</div>
+                    <div class="annoucement-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, labore?</div>
+                    <hr>
+                    <div class="annoucement-heading">Updated Privacy Policy</div>
+                    <div class="annoucement-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, labore?</div>
+                </div>
+            </div>
+
+            <div class="trending-profiles-section">
+                <div class="annoucement-section-heading">Trending</div>
+                <div class="trending-container">
+                    <div class="trending-profile">
+                        <div><img src="images/icons8-circled-user-neutral-skin-type-6-40.png" class="profile-pic-small" alt=""></div>
+                        <div class="trending-profile-info">
+                            <div class="trending-username">@user1</div>
+                            <div class="trending-project">Sample Project Title</div>
+                        </div>
+                    </div>
+                    <div class="trending-profile">
+                        <div><img src="images/icons8-circled-user-neutral-skin-type-6-40.png" class="profile-pic-small" alt=""></div>
+                        <div class="trending-profile-info">
+                            <div class="trending-username">@user1</div>
+                            <div class="trending-project">Sample Project Title</div>
+                        </div>
+                    </div>
+                    <div class="trending-profile">
+                        <div><img src="images/icons8-circled-user-neutral-skin-type-6-40.png" class="profile-pic-small" alt=""></div>
+                        <div class="trending-profile-info">
+                            <div class="trending-username">@user1</div>
+                            <div class="trending-project">Sample Project Title</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Main End -->
+    </div>
+</body>
+</html>
